@@ -24,10 +24,12 @@ export interface PageSEO {
  * Centrally configured canonical production domain.
  * Replace with your actual custom Vercel / production URL if different.
  */
+
 export const PRODUCTION_DOMAIN =
   (typeof window !== 'undefined' && window.location.origin.includes('vercel.app'))
     ? window.location.origin
-    : 'https://budgetrespawn.vercel.app';
+    : 'https://budget-respawn.vercel.app';
+
 
 export const SEO_DATA: Record<string, PageSEO> = {
   home: {
