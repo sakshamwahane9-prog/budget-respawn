@@ -1,0 +1,6 @@
+{
+  "name": "Budget Respawn",
+  "description": "Level up your setup, not your spending. Expert guides, price breakdowns, and DIY ideas for budget gaming setups in India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
